@@ -1,0 +1,78 @@
+<div id="notebook" (click)="isNotebookEnabled = 'open'"  cdkDrag >
+  <img src="../../../assets/images/notebook.png" style="width: 50px;"  [@notebook]=isNotebookEnabled  />
+</div>
+
+<div class="container" *ngIf="isNotebookEnabled == 'open'" >
+  <div class="header-tongue"></div>
+
+  <div class="header-folder">
+    <button mat-icon-button (click)="isFileShown = !isFileShown" >
+      <i class="fa fa-file fa-2x"></i>
+    </button>
+
+    <button mat-icon-button (click)="openGallery()"  >
+      <i class="fa fa-image fa-2x"></i>
+    </button>
+    <button mat-icon-button (click)="openOCR()" >
+      OCR
+    </button>
+
+    <button mat-icon-button (click)="alert('Doc Type');" >
+      Doc Type
+    </button>
+
+  </div>
+
+  <div class="header-document">
+  </div>
+
+  <div class="header-content">
+
+    <div class="header-content-left" [ngStyle]="headerContentStyle" >
+      <input type="text" class="search-box" placeholder="Ara..." (keydown)="search($event)" #searchInputEle />
+      <mat-icon (click)="search()" >search</mat-icon>
+    </div>
+
+    <div class="header-document-right">
+      <button mat-icon-button (click)="triggerSearchBox()"  >
+        <i class="fa fa-search fa-2x"></i>
+      </button>
+
+      <button mat-icon-button (click)="isNotebookEnabled = 'close'" >
+        <i class="fa fa-close fa-2x"></i>
+      </button>
+    </div>
+  </div>
+
+  <div>
+   <div class="tongue" *ngFor="let folder of data; let i = index">
+    </div> 
+  </div>
+  
+  <document-folder (emitDocuments)="getDocuments($event)" (emitDocumentsShown)="setDocumentsShown($event)" (emitFoldersShown)="setFoldersShown($event)"
+    *ngIf="isFoldersShown" ></document-folder>
+
+  <div class="document" *ngIf="isDocumentsShown" >
+    <div class="navigation-icons">
+      <button class="navigation-icon-three" title="Belge listesini kapa" mat-icon-button (click)="isDocumentsShown = false;" *ngIf="isDocumentsShown" >
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <button class="navigation-icon-four" title="Klasör ağacını aç" mat-icon-button (click)="isFoldersShown = true;" *ngIf="!isFoldersShown" >
+        <i class="fa fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="documents">
+      <ul class="undecorated-list">
+        <li *ngFor="let doc of documents" (click)="selectDocument(doc)" >
+            <button mat-button >
+              <i class="fa fa-{{doc.Icon}}" ></i>
+              {{doc.Name}}
+            </button>
+        </li>
+    </ul>
+    </div>
+  </div>
+
+  <document-content [data]="document" ></document-content>
+</div>

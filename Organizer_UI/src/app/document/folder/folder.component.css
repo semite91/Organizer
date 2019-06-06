@@ -1,0 +1,30 @@
+.folder{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    position: relative;
+}
+
+.folder, .folder *{
+    background-color: #dcf2f9;
+}
+
+mat-tree-node.active, mat-tree-node.active * {
+    background-color: lightblue !important;
+}
+
+.button-wrapper{
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+}
+
+.button-wrapper .mat-icon-button
+{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.folder .mat-tree-node {
+    overflow: unset;
+}

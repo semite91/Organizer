@@ -1,0 +1,92 @@
+<div class="folder" *ngIf="isShown">
+    <div class="navigation-icons">
+      <button
+        class="navigation-icon-one"
+        title="Klasör ağacını kapa"
+        mat-icon-button
+        (click)="setShown(false)"
+        *ngIf="isShown" >
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <button
+        class="navigation-icon-two"
+        title="Belge listesini aç"
+        mat-icon-button
+        (click)="changeDocumentsShown(true)"
+        *ngIf="!isDocumentsShown" >
+        <i class="fa fa-chevron-right"></i>
+      </button>
+    </div>
+  
+    <mat-tree
+      [dataSource]="dataSource"
+      [treeControl]="tree"
+      cdkDropList
+      (cdkDropListDropped)="moveFolder($event)"
+      class="autoScroll" >
+      <mat-tree-node
+        *matTreeNodeDef="let node"
+        [ngClass]="{ active: node.selected }" >
+        <div class="mat-tree-node">
+          <button mat-button (click)="selectFolder(node)">
+            {{ node.Name }}
+          </button>
+  
+          <div class="button-wrapper">
+            <button mat-icon-button (click)="addFolder(node)">
+              <i class="fa fa-plus"></i>
+            </button>
+            <button mat-icon-button (click)="detailFolder(node)">
+              <i class="fa fa-pencil"></i>
+            </button>
+            <button mat-icon-button (click)="deleteFolder(node)">
+              <i class="fa fa-close"></i>
+            </button>
+          </div>
+        </div>
+      </mat-tree-node>
+  
+      <mat-tree-node
+        *matTreeNodeDef="let node; when: hasChild"
+        [ngClass]="{ active: node.selected }" >
+        <div class="mat-tree-node">
+          <button mat-button matTreeNodeToggle (click)="selectFolder(node)">
+            <mat-icon>
+              {{ tree.isExpanded(node) ? "expand_more" : "chevron_right" }}
+            </mat-icon>
+            {{ node.Name }}
+          </button>
+  
+          <div class="button-wrapper">
+            <button mat-icon-button (click)="addFolder(node)">
+              <i class="fa fa-plus"></i>
+            </button>
+            <button mat-icon-button (click)="detailFolder(node)">
+              <i class="fa fa-pencil"></i>
+            </button>
+            <button mat-icon-button (click)="deleteFolder(node)">
+              <i class="fa fa-close"></i>
+            </button>
+          </div>
+        </div>
+        <ul [hidden]="!tree.isExpanded(node)" style="margin: 0;">
+          <ng-container matTreeNodeOutlet></ng-container>
+        </ul>
+      </mat-tree-node>
+  
+      <mat-tree-node
+        *matTreeNodeDef="let node; when: onProcess"
+        cdkDrag
+        [cdkDragData]="node" >
+        <div class="mat-tree-node">
+          <mat-form-field>
+            <input matInput #childName placeholder="Yeni Klasör..." />
+          </mat-form-field>
+          <button mat-button (click)="saveFolder(node, childName.value)">
+            Kaydet
+          </button>
+        </div>
+      </mat-tree-node>
+    </mat-tree>
+  </div>
+  

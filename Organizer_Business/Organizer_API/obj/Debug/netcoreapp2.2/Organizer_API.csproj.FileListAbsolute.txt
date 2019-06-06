@@ -1,0 +1,17 @@
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_API.deps.json
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_API.runtimeconfig.json
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_API.runtimeconfig.dev.json
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_API.dll
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_API.pdb
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_Data.dll
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\bin\Debug\netcoreapp2.2\Organizer_Data.pdb
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.csprojAssemblyReference.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.csproj.CoreCompileInputs.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.RazorAssemblyInfo.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.RazorAssemblyInfo.cs
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.AssemblyInfoInputs.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.AssemblyInfo.cs
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.RazorTargetAssemblyInfo.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.csproj.CopyComplete
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.dll
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_API\obj\Debug\netcoreapp2.2\Organizer_API.pdb

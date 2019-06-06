@@ -1,0 +1,11 @@
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\bin\Debug\netcoreapp2.2\Organizer_Data.deps.json
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\bin\Debug\netcoreapp2.2\Organizer_Data.runtimeconfig.json
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\bin\Debug\netcoreapp2.2\Organizer_Data.runtimeconfig.dev.json
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\bin\Debug\netcoreapp2.2\Organizer_Data.dll
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\bin\Debug\netcoreapp2.2\Organizer_Data.pdb
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\obj\Debug\netcoreapp2.2\Organizer_Data.csproj.CoreCompileInputs.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\obj\Debug\netcoreapp2.2\Organizer_Data.AssemblyInfoInputs.cache
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\obj\Debug\netcoreapp2.2\Organizer_Data.AssemblyInfo.cs
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\obj\Debug\netcoreapp2.2\Organizer_Data.dll
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\obj\Debug\netcoreapp2.2\Organizer_Data.pdb
+C:\Users\samih\Desktop\Infinity\Education_Development\Software\Projects\Organizer\Solution\Organizer_Data\Organizer_Data\obj\Debug\netcoreapp2.2\Organizer_Data.csprojAssemblyReference.cache

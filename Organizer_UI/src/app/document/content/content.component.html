@@ -1,0 +1,18 @@
+<div class="content">
+  <div class="header" *ngIf="isDisplay()">
+    <div class="top">
+      <span class="name">{{ data.Name }}</span>
+      <div class="buttons">
+        <button mat-button>
+          <mat-icon>home</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="bottom">
+      <span class="bottom-item">{{ data.CreateUser_Name }}</span>
+      <span class="bottom-item">{{
+        data.CreateDate | date: "dd.MM.yyyy"
+      }}</span>
+    </div>
+  </div>
+</div>
